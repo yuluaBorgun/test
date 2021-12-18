@@ -24,5 +24,11 @@ namespace WpfApp9
         {
             InitializeComponent();
         }
+
+        public string met(int nom)
+        {
+            return $"{nom}";
+        }
+
     }
 }
